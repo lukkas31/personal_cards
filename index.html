@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="">
+    <meta name="keywords" content="index.html">
+    <meta name="author" content="Lukas">
+    <title>CARD</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  </head>
+  <body>
+
+    
+    <ul class="menu">
+      <li data-card="card-martin" class="martin selected"></li>
+      <li data-card="card-zara" class="zara"></li>
+      <li data-card="card-bruce" class="bruce"></li>
+      <li data-card="card-jim" class="jim"></li>
+    </ul>
+    
+    <ul id="box_area" class="start">
+      <li class="block"></li>
+      <li class="block"></li>
+      <li class="block"></li>
+      <li class="block"></li>
+      <li class="block"></li>
+      <li class="block"></li>
+    </ul>
+    <section>
+
+      <article id="card-martin" class="card show-card">
+        <div class="card__inner">
+          <div class="card__photo"></div>
+          <h1 class="card__name">Martin</h1>
+          <p class="card__about">
+            Cheesecake jelly dragée toffee jelly
+            chocolate bar. Croissant lollipop carrot cake powder jelly-o lollipop
+            sweet roll.
+            Jelly beans dragée toffee toffee pastry muffin powder biscuit. <br>
+            <span>more</span>
+          </p>
+        </div>
+      </article>
+      
+      <article id="card-zara" class="card">
+        <div class="card__inner">
+          <div class="card__photo"></div>
+          <h1 class="card__name">Zara</h1>
+          <p class="card__about">
+            Jelly-o jelly tart toffee. Cheesecake jelly dragée toffee jelly
+            sweet roll dragée toffee toffee pastry muffin soufflé. 
+            chocolate bar. Croissa ake powder jelly-o lollipop
+            Jelly beans dragée toffee toffee pastry muffin powder biscuit. <br>
+            <span>more</span>
+          </p>
+        </div>
+      </article>
+      
+      <article id="card-bruce" class="card">
+        <div class="card__inner">
+          <div class="card__photo"></div>
+          <h1 class="card__name">Bruce</h1>
+          <p class="card__about">
+            Jelly-o jelly tart toffee. Cheesecake jelly dragée toffee jelly
+            chocolate bar. Croissant lollipop
+            sweet roll soufflé.
+            Jelly beans dragée toffee toffee pastry muffin powder biscuit. <br>
+            <span>more</span>
+          </p>
+        </div>
+      </article>
+      
+      <article id="card-jim" class="card">
+        <div class="card__inner">
+          <div class="card__photo"></div>
+          <h1 class="card__name">Jim</h1>
+          <p class="card__about">
+            Jelly-o jelly tart toffee jelly dragée toffee jelly
+            chocolate baroiss llipop  powder jelly-o lollipop
+            sweet roll soufflé.
+            Jelly beans dragée toffee er biscuit.
+            Jelly-o jelly tart toffee. Cheesecake jelly dragée toffee jelly <br>
+            <span>more</span>
+          </p>
+        </div>
+      </article>
+      
+    </section>
+      
+    
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js" integrity="sha512-Q+G390ZU2qKo+e4q+kVcJknwfGjKJOdyu5mVMcR95NqL6XaF4lY4nsSvIVB3NDP54ACsS9rqhE1DVqgpApl//Q==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+  </html>
